@@ -10,7 +10,10 @@ module.exports = {
     },
     fontFamily: {
       lum: ['Luminari'],
-      bit: ['Bitwise']
+      bit: ['Bitwise'],
+      apple: ['apple-chancery'],
+      gen: ['Geneva']
+
     },
     extend: {
       colors: {
