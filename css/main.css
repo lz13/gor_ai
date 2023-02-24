@@ -308,7 +308,9 @@ Removes the default spacing and border for appropriate elements.
 blockquote,
 dl,
 dd,
-h1,
+h1 {
+  font-family: membra;
+}
 h2,
 h3,
 h4,
@@ -530,9 +532,31 @@ video {
   background-color: rgb(13 12 11 / var(--tw-bg-opacity));
 }
 
+.bg-zinc-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 250 250 / var(--tw-bg-opacity));
+}
+
+.bg-gradient-to-br {
+  background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+}
+
+.bg-none {
+  background-image: none;
+}
+
+.font-sans {
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .text-white {
