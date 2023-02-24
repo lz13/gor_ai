@@ -18,8 +18,9 @@ module.exports = {
     extend: {
       colors: {
         'black': '#0d0c0b',
+        'grey': '#1b1c1c',
         'zinc-white': '#fafafa'
-      }
+      },
     },
   },
   plugins: [],
