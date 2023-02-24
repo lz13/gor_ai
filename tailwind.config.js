@@ -8,6 +8,10 @@ module.exports = {
       lg: '976px',
       xl: '1440px'
     },
+    fontFamily: {
+      lum: ['Luminari'],
+      bit: ['Bitwise']
+    },
     extend: {
       colors: {
         'black': '#0d0c0b',
