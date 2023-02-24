@@ -308,9 +308,7 @@ Removes the default spacing and border for appropriate elements.
 blockquote,
 dl,
 dd,
-h1 {
-  font-family: membra;
-}
+h1,
 h2,
 h3,
 h4,
