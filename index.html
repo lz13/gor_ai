@@ -6,14 +6,37 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Gor_AI</title>
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/back.css">
     <script src="/main.js"></script>
     <title>ART_INT</title>
   </head>
   <body>
+    <!-- Navbar -->
+    <nav class="relative container mx-auto p-2">
+      <!-- Flex Container -->
+      <div class="flex items-center justify-between">
+        <!-- Hamburger Icon -->
+        <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </button>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div class="md:hidden">
+        <div id="menu" class="abolute flex flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold text-slate-300 bg-blue-200/25 sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+          <a href="#">Lorem</a>
+          <a href="#">Ipsum</a>
+          <a href="#">Dolor</a>
+          <a href="#">Emit</a>
+          <a href="#">Placerat</a>
+        </div>
+      </div>
+    </nav>
+
     <!-- Hero Section -->
     <section id="hero">
-      <div class="container flex flex-col items-center px-6 mx-auto mt-80 space-y-0 md:flex-row md:space-y-0">
+      <div class="container flex flex-col items-center px-6 mx-auto mt-60 space-y-0 md:flex-row md:space-y-0">
         <!-- Left Item -->
         <div class="flex items-center flex-col space-y-2 md:w-1/2">
           <h1 class="max-w-md text-5xl font-bold text-slate-300 text-center md:text6xl md:text-left">
@@ -31,7 +54,7 @@
           </div>
         </div>
         <!-- Video -->
-        <div class="md:w-1/2">
+        <div class="p-12 md:w-1/2">
           <iframe width="460" height="220" src="https://www.youtube.com/embed/_19pRsZRiz4" 
           title="A.I. Artificial Intelligence - Official® Trailer [HD]" 
           frameborder="0" 
@@ -44,7 +67,7 @@
 
     <!-- Features Section -->
     <section id="features">
-      <div class="container flex flex-col px-4 mx-auto mt-60 space-y-12 md:space-y-0 md:flex-row">
+      <div class="container flex flex-col px-4 mx-auto mt-40 space-y-12 md:space-y-0 md:flex-row">
         <div class="flex flex-col space-y-12 md:w-1/2">
           <h2 class="max-w-md text-4xl font-bold text-slate-300 text-center md:text-left">
             Adipisci Velit
