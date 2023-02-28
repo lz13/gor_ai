@@ -213,11 +213,14 @@
     <!-- Footer section -->
     <footer class="bg-white/75">
       <!-- Flex Container -->
-      <div class="container flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:spave-y-0">
+      <div class="container flex flex-col-reverse justify-between px-6 py-8 mx-auto space-y-8 md:flex-row md:space-y-0">
         <!-- Logo and Social links container -->
         <div class="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start">
+          <div class="mx-auto my-6 text-center text-grey-800 md:hidden">
+            Copyright &copy; 2023, All Rights Reserved
+          </div>
           <!-- Logo -->
-          <div class="mb-4">
+          <div class="mb-2">
             <img src="/assets/img/logo.png" class="h-14" alt="" />
           </div>
           <!-- Socail Links Conatainer -->
@@ -242,6 +245,36 @@
             <a href="#">
               <img src="assets/img/pinterest.png" alt="" class="h-8"/>
             </a>
+          </div>
+        </div>
+
+        <!-- List Container -->
+        <div class="flex justify-around space-x-32">
+          <div class="flex flex-col space-y-1 text-grey-800">
+            <a href="#" class="hover:text-sky-600">Lorem</a>
+            <a href="#" class="hover:text-sky-600">Ipsum</a>
+            <a href="#" class="hover:text-sky-600">Dolor</a>
+            <a href="#" class="hover:text-sky-600">Sit</a>
+          </div>
+          <div class="flex flex-col space-y-1 text-black">
+            <a href="#" class="hover:text-sky-600">Quia</a>
+            <a href="#" class="hover:text-sky-600">Consectetur</a>
+            <a href="#" class="hover:text-sky-600">Adipisci</a>
+          </div>
+        </div>
+
+        <!-- Input Container -->
+        <div class="flex flex-col justify-between">
+          <form>
+            <div class="flex space-x-3">
+              <input type="text" class="flex-1 px-4 rounded-full text-slate-300 bg-sky-800/75 focus:outline-none" placeholder="Lorem ipsum dolor"/>
+              <button class="px-6 py-2 text-slate-300 rounded-full  bg-sky-800/75 hover:bg-sky-600 focus:outline-none">
+                @
+              </button>
+            </div>
+          </form>
+          <div class="hidden text-grey-800 md:block">
+            Copyright &copy; 2023, All Rights Reserved
           </div>
         </div>
       </div>
