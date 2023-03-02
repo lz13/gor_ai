@@ -894,6 +894,18 @@ video {
   color: rgb(203 213 225 / var(--tw-text-opacity));
 }
 
+.text-slate-300\/75 {
+  color: rgb(203 213 225 / 0.75);
+}
+
+.text-slate-300\/50 {
+  color: rgb(203 213 225 / 0.5);
+}
+
+.text-slate-300\/25 {
+  color: rgb(203 213 225 / 0.25);
+}
+
 .shadow-2xl {
   --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
   --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
