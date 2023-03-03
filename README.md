@@ -18,7 +18,7 @@ npm install -g live-server
 ```
 git clone https://github.com/lz13/gor_ai.git
 ```
-3. Run live-server inside yout terminal
+3. Run live-server inside your terminal
 ```
 $ live-server
 ```
